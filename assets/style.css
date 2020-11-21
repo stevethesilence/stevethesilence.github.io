@@ -1,0 +1,192 @@
+/*--------------------------------------------header*/
+.page-title {
+    text-align: center;
+    color: yellow;
+    background-color: #800080;
+    font-weight: bolder;
+    
+}
+
+page-title p {
+    margin-bottom: 0px;
+    margin-block-end: 0px;
+}
+
+header{
+    margin-bottom: 0px;
+}
+/*--------------------------------------------Colours*/
+
+.container-fluid {
+    background-color: #800080;
+    color: yellow;
+}
+
+body{
+    background-color: #e5e4e2;    
+}
+
+/*--------------------------------------------Nav Bars*/
+
+#floating-menu { /* https://www.ucd.ie/juggling/the_lingo.html#gsc.tab=0 */
+    position: fixed;
+    background-color: #800080;
+    border: 2px solid;
+    border-radius: 25px;
+    z-index: 100;
+    left: 4%;
+    top: 40%;
+    right 4%;
+    margin-top: -2.5em;
+    margin-left: 100px;
+    width: 100px;
+    height: 300px;
+    padding: none;
+    padding-left: 15px;
+    line-height: 26px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    
+}
+
+#floating-menu li {
+    width 100%
+}
+
+.menuitem {
+    color: rgba(0,0,0, 1);
+    text-align: left;
+}
+
+.nav {
+
+}
+.nav-page1 {
+
+}
+
+.nav-page2 {
+    
+}
+
+.nav-page3 {
+
+}
+
+/*--------------------------------------------page text divs*/
+
+.page-text {
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.prop-intro li {
+    text-align: left;
+}
+
+.social-media{
+    list-style-type: circle;
+    text-align: left;
+}
+
+.intro-text h3{
+    text-decoration: underline;
+}
+.prop-text h3{
+    text-decoration: underline;
+}
+.prop-text {
+    text-align: center;
+}
+
+.stores {
+    list-style-type: none;
+}
+
+.event-text h3{
+    text-decoration: underline;
+}
+
+/*--------------------------------------------images*/
+
+.sidebar-images {
+    align: left;
+    size: cover;
+}
+
+#home-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
+
+}
+
+#home-imgs img {
+    width: 100%;
+}
+
+#props-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
+
+}
+
+#props-imgs img {
+    width: 100%;
+}
+
+#events-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
+
+}
+
+#events-imgs img {
+    width: 100%;
+}
+
+/*--------------------------------------------media queries*/
+
+@media screen and (max-width:635px)
+{
+    .sidebar-images {
+        display: none;
+        margin: 0 auto;
+    }
+
+    #floating-menu {
+        display: none;
+        margin: 0 auto;
+        list-style-type: none;
+    }
+
+}
+
+@media screen and (min-width:635px)
+{
+    .mobile-nav {
+        display: none;
+        margin: 0 auto;
+    }
+
+}
+
+/*--------------------------------------------footer*/
+
+.footer-left{
+    text-align: center;
+}
+
+.centre-form {
+
+}
+
+.footer-right{
+    text-align: center;
+}
